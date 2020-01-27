@@ -1,0 +1,16 @@
+.kt-header__brand {
+  background-color: #ffffff;
+}
+.kt-subheader-search {
+  background-color: #1e4774;
+}
+.kt-header__topbar-username {
+  color: #636177 !important;
+}
+.kt-header-mobile__logo img {
+  height: 45px;
+}
+
+.kt-header__brand-logo img {
+  height: 75px;
+}

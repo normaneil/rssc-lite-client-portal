@@ -1,0 +1,11 @@
+{
+  "name": "RsscLite",
+  "version": "1.0.0",
+  "description": "Remote Staff Client Portal",
+  "author": "Normaneil E. Macutay",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {}
+}
