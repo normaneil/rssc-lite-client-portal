@@ -5,19 +5,19 @@
         templateUrl: 'components/logo.html'
     });
 
-    App.component('asideMenu', {
-        templateUrl: 'components/asideMenu.html',
-        bindings: {
-            sideMenus: '='
-        }
-    });
+    // App.component('asideMenu', {
+    //     templateUrl: 'components/asideMenu.html',
+    //     bindings: {
+    //         sideMenus: '='
+    //     }
+    // });
 
-    App.component('headerMenu', {
-        templateUrl: 'components/headerMenu.html',
-        bindings: {
-            headerMenus: '='
-        }
-    });
+    // App.component('headerMenu', {
+    //     templateUrl: 'components/headerMenu.html',
+    //     bindings: {
+    //         headerMenus: '='
+    //     }
+    // });
 
     App.component('subHeader', {
         templateUrl: 'components/subHeader.html',
@@ -25,5 +25,7 @@
             menus: '='
         }
     });
+
+    
 
   })(window.angular);

@@ -1,19 +1,17 @@
-(function(angular) {
-  'use strict';
-  
-  // App.directive('headerMobile', function() {
-  //   return {
-  //     templateUrl: 'components/headerMobile.html'
-  //   };
-  // });
+App.directive('test', function(){
+  return {
+    templateUrl: 'components/test.html'
+  }
+});
 
+App.directive('headerMenu', ()=> {
+  return {
+    templateUrl: 'components/headerMenu.html'
+  }
+});
 
-  // App.directive('asideMenu', function() {
-  //   return {
-  //     templateUrl: 'components/asideMenu.html'
-  //   };
-  // });
-
-
-
-})(window.angular);
+App.directive('asideMenu', ()=> {
+  return {
+    templateUrl: 'components/asideMenu.html'
+  }
+});

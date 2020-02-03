@@ -1,1 +1,4 @@
-const App = angular.module('RsscApp', []);
+const App = angular.module('RsscApp', [
+    'ngRoute',
+    'ngmqtt'
+]);
