@@ -83,42 +83,51 @@ function MainController($scope, $http){
         {
             name: 'Staff',
             url: '/staff',
-            icon: 'flaticon2-protection'
+            icon: 'fa fa-user-friends '
         },
         {
             name: 'Users',
             url: '/Users',
-            icon: ''
+            icon: 'fa fa-user-cog'
         },
         {
             name: 'Leave Request',
             url: '/Leave',
-            icon: ''
+            icon: 'fa fa-calendar-check'
         },
         {
             name: 'Commission',
             url: '/Commission',
-            icon: ''
+            icon: 'fa fa-money-check-alt'
         },
         {
             name: 'Invoice',
             url: '/Invoice',
-            icon: ''
+            icon: 'fa fa-file-invoice-dollar'
         },
         {
             name: 'Testimonials',
             url: '/Testimonials',
-            icon: ''
+            icon: 'fab fa-weixin'
         },
         {
             name: 'Job Ads',
             url: '/Ads',
-            icon: ''
+            icon: 'fa fa-newspaper'
         }
     ];
 
-    console.log($scope.header_menu)
-    console.log($scope.side_menu)
+
+    // console.log($scope.header_menu)
+    // console.log($scope.side_menu)
+
+    $http.get("./data.json")
+    .then(function(response) {
+        console.log("response", response)
+        $scope.data = response.data;
+    });
+
+    console.log($scope.data)
 }
 
 App.controller('MainController',["$scope", "$http", MainController]);
